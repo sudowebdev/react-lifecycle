@@ -21,3 +21,10 @@ Mounting is the process that occurs when a component is being **inserted into th
 All the AJAX requests should be put-up inside componentDidMount() hook.  
 I am pretty much sure you would be thinking why? So **[here](https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/)** is the answer.  
 You can also refer **[this](https://daveceddia.com/ajax-requests-in-react/)** for more info.
+
+
+For explaining the below line:  
+> It’s very important to note that calling this.setState() within **componentWillMount** method will not trigger a re-render.
+
+This is because, the **render()** method hasn't been **called yet**. Thus, its **re-render is actually the first-time rendering** of the render method. However, in case of **componentDidMount()** method, the **render** method has already been called and so **this.setState re-renders** it again.
+
