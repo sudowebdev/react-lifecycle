@@ -48,4 +48,4 @@ forceUpdate should be avoided because it deviates from a React mindset. The Reac
 
 >By default, when your component's state or props change, your component will re-render. However, if these change implicitly (eg: data deep within an object changes without changing the object itself) or if your render() method depends on some other data, you can tell React that it needs to re-run render() by calling forceUpdate().  
 
-For more: **[Refer here](https://stackoverflow.com/a/35004739/5733330)**
+For more: Refer **[this](https://stackoverflow.com/a/35004739/5733330)** and **[this](https://www.tutorialspoint.com/reactjs/reactjs_component_api.htm)**
