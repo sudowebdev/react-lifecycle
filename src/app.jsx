@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import PropTypes from 'prop-types'; 
 
 class App extends React.Component{
 
@@ -23,7 +24,7 @@ class App extends React.Component{
 }
 
 App.defaultProps = { initialValue: 0 };
-App.propTypes = { initialValue: React.PropTypes.number };
+App.propTypes = { initialValue: PropTypes.number };
 
 var app = <App/>;
 
