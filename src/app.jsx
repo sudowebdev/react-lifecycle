@@ -40,7 +40,12 @@ class App extends React.Component{
 
     /* 				 Mounting Ends                */
 
+    
+    /*				  Unmounting				  */
+    componentWillUnmount(){
 
+    	console.log("componentWillUnmount() is called");
+    }
 }
 
 App.defaultProps = { initialValue: 0 };

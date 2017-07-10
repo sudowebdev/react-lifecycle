@@ -33,3 +33,10 @@ This is because, the **render()** method hasn't been **called yet**. Thus, its *
 
 ##### [Refer to this for a more clear understanding of this topic](https://medium.com/react-ecosystem/react-components-lifecycle-ce09239010df)
 
+
+## Unmounting
+
+It is called immediately before the component is unmounted from the DOM.
+
+
+
