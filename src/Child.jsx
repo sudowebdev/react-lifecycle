@@ -7,10 +7,15 @@ export default class Child extends React.Component{
 		console.log('componentWillReceiveProps() is called');
 	}
 
+	forceUpdate(){
+
+		console.log('forceUpdate() is called');
+	}
+
 	shouldComponentUpdate(){
 
 		console.log('shouldComponentUpdate() is called');
-
+		this.forceUpdate();
 		return true;
 	}
 

@@ -39,4 +39,7 @@ This is because, the **render()** method hasn't been **called yet**. Thus, its *
 It is called immediately before the component is unmounted from the DOM.
 
 
+## Force Update
+
+One last method that is worthy to note is forceUpdate(). As mentioned earlier, React will re-render components as props in use change (or componentWillReceiveProps is called). If there is a need to update the component while props are not changing, then forceUpdate can be called.
 
