@@ -12,3 +12,12 @@ According to the syntax of **React.createClass**, ***getDefaultProps()*** and **
 	npm install --save prop-types
 
 [Refer here in case of any issues related to prop-types](https://github.com/facebook/prop-types#installation)		
+
+
+## Mounting
+
+Mounting is the process that occurs when a component is being **inserted into the DOM**. This phase has two methods that we can hook up with: **componentWillMount()** and **componentDidMount()**.
+
+All the AJAX requests should be put-up inside componentDidMount() hook.  
+I am pretty much sure you would be thinking why? So **[here](https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/)** is the answer.  
+You can also refer **[this](https://daveceddia.com/ajax-requests-in-react/)** for more info.
