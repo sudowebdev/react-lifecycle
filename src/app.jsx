@@ -34,10 +34,8 @@ class App extends React.Component{
     componentDidMount(){
     	console.log("componentDidMount() is called");
 
-    	setInterval(function()
-		{
 			this.setState({value: this.state.value + 1})
-		}.bind(this), 1000);
+		
     }
 
     /* 				 Mounting Ends                */

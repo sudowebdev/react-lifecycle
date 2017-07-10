@@ -28,3 +28,8 @@ For explaining the below line:
 
 This is because, the **render()** method hasn't been **called yet**. Thus, its **re-render is actually the first-time rendering** of the render method. However, in case of **componentDidMount()** method, the **render** method has already been called and so **this.setState re-renders** it again.
 
+
+## Updating
+
+##### [Refer to this for a more clear understanding of this topic](https://medium.com/react-ecosystem/react-components-lifecycle-ce09239010df)
+
