@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Child from './Child.jsx';
+
 import PropTypes from 'prop-types'; 
 
 class App extends React.Component{
@@ -25,7 +27,7 @@ class App extends React.Component{
     render(){ 
     	console.log("render() is called");
     	return(
-           <div>The value is: {this.state.value}</div>
+           <Child text={this.state.value}/>
     	);
     }
 
