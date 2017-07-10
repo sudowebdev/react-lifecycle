@@ -42,6 +42,7 @@ It is called immediately before the component is unmounted from the DOM.
 ## Force Update
 
 One last method that is worthy to note is forceUpdate(). As mentioned earlier, React will re-render components as props in use change (or componentWillReceiveProps is called). If there is a need to update the component while props are not changing, then forceUpdate can be called.  
+**[Refer here](https://medium.com/mofed/reacts-component-lifecycles-adf0ebc89d23)**
 
 forceUpdate should be avoided because it deviates from a React mindset. The React docs cite an example of when forceUpdate might be used:
 
